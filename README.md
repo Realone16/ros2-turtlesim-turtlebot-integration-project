@@ -82,3 +82,13 @@ Before you begin, make sure you have:
     ros2 action send_goal /move_turtle my_robot_interfaces/action/MoveTurtle "{linear_vel_x: 1.5, angular_vel_z: 0.7, duration_sec: 5.0}"
     ```
 
+## Turtlesim and Turtlebot controller Simulation
+
+### Here is a short illustration of our turtle controller simulation in action:
+
+![Turtle Simulation](illustration/Turtle_controller.gif)
+
+### Here is a short illustration of our turtlebot controller simulation in Gazebo:
+
+![Turtlebot Simulation](illustration/Turtlebot_controller.gif)
+
